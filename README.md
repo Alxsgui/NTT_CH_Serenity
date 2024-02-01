@@ -9,8 +9,8 @@ Automatización de compra en e-commerce de [Abstracta](https://opencart.abstract
 Empleando serenenity screenplay con cucumber.
 
 ## **Tecnológias**
-* SDK : 21.0.1
-* Building tool: gradle 8.5
+* JDK : 17.0.10
+* Building tool: gradle 7.6.1
 * IDE: IntellIJ
 
 ## **Implementación**
