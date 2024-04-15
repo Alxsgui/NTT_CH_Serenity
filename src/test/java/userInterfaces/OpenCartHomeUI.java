@@ -1,7 +1,7 @@
 package userInterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
-import org.openqa.selenium.By;
+
 
 public class OpenCartHomeUI {
 
@@ -20,6 +20,5 @@ public class OpenCartHomeUI {
     public static final Target BTN_VIEW_CART = Target
             .the("Preview cart button ")
             .locatedBy("//strong[normalize-space()='View Cart']");
-
 
 }
