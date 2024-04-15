@@ -6,7 +6,7 @@ public class SuccessUI {
 
 
     public static final Target MESSAGE = Target
-            .the("EL usuario valida la compra")
+            .the("Succesful message")
             .locatedBy("//h1[normalize-space()='Your order has been placed!']");
 
 }
