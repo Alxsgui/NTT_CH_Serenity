@@ -5,16 +5,19 @@ import net.serenitybdd.screenplay.targets.Target;
 public class CartUI {
 
 
+
+
     public static final Target BITNAMY = Target
-            .the("Bitnamy Button")
+            .the("El usuario presiona el boton de checkout")
             .locatedBy("//img[@alt='Bitnami']");
 
     public static final Target BTN_BITNAMY = Target
-            .the("Bitnamy  close button")
+            .the("El usuario presiona el boton de checkout")
             .locatedBy("#bitnami-close-banner-button");
 
     public static final Target BTN_CHECKOUT = Target
-            .the("Checkout Button")
+            .the("El usuario presiona el boton de checkout")
             .locatedBy("//a[@class='btn btn-primary']");
+
 
 }
