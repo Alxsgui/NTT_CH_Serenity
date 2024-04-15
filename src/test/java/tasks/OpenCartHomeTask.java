@@ -3,7 +3,6 @@ package tasks;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import userInterfaces.OpenCartHomeUI;
 
@@ -12,7 +11,6 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 
 
 public class OpenCartHomeTask implements Task {
-
 
 
     public static Task AddToCart() {
@@ -41,11 +39,7 @@ public class OpenCartHomeTask implements Task {
                 Click.on(OpenCartHomeUI.BTN_VIEW_CART)
 
 
-
-
         );
-
-
 
 
     }

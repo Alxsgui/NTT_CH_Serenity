@@ -8,10 +8,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features" ,
+        features = "src/test/resources/features",
         glue = "glue",
-        tags= "@OpenCart"
+        tags = "@OpenCart"
 )
-
 public class runner {
 }

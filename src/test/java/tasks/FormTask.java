@@ -7,7 +7,6 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import userInterfaces.FormUI;
-import userInterfaces.OpenCartHomeUI;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
@@ -98,14 +97,7 @@ public class FormTask implements Task {
                 Click.on(FormUI.BTN_CONFIRM)
 
 
-
-
         );
-
-
-
-
-
 
 
     }
